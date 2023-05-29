@@ -1,0 +1,14 @@
+.summaryWrapper{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 40px;
+    padding-left: 15px;
+    max-width: 400px;    
+    border-radius: 9px;
+    border: 2px solid rgb(46, 39, 39);
+    background-color: #d3cdcd;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-weight: bold;
+}

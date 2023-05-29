@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:50px;
+    margin: 0 auto 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    max-width: 100%;
+    text-align: center;
+    background-color: rgb(201, 197, 197);
+    min-width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 250px;
+    padding-right: 100px;
+  }
+
+  .layoutP{
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    
+  }
+
+  .layoutLink{
+    text-decoration: none;
+    padding-right: 15px;
+  }
+/* 
+  .layoutLinkWrapper{
+display: flex;
+align-items: center;
+justify-content: space-between;
+  } */
+
+  /* .tabWrapper{
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 2px solid rgb(36, 29, 29);
+    background-color: rgb(155, 155, 155);
+    max-width: 300px;
+    overflow: hidden;
+    margin-bottom: 30px;
+
+  } 
+
+   .tab{
+    padding-top: 8px;
+    margin: 0 auto;
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    height: 30px;
+    color: rgb(49, 48, 48);
+    text-align: center;
+    transition: 0.3s all ease;
+    border-left: 2px solid rgb(114, 64, 64) ;
+  }
+
+  .tab:hover{
+    background-color: rgb(201, 140, 140);
+  } */
+
+ 

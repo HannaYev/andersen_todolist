@@ -1,0 +1,27 @@
+.startPageWrapper {
+  
+  width: 300px;
+  height:120px;
+  background-color: #c5c4c4;
+  border: 1px solid gray;
+  border-radius: 9px;
+  margin: 100px auto;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+.customInput {
+  padding: 5px;
+  border-radius: 9px;
+  outline: none;
+  border: 1px solid gray;
+  background-color: rgb(233, 235, 235);
+  transition: 0.3s all ease;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.customInput:hover {
+  background-color: #fff;
+}

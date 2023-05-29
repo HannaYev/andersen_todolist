@@ -1,0 +1,7 @@
+.tabsWrapper{
+    margin-left: 40px;
+}
+
+.clickedTab{
+ background-color: rgb(206, 201, 199);
+}

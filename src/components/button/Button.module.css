@@ -1,0 +1,16 @@
+.button{
+    display: inline-block;
+    border: 2px solid rgb(99, 68, 128);
+    border-radius: 12px;
+    width: 80px;
+    height: 30px;
+    background-color:rgb(206, 206, 206);;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    color: black;
+   margin-left:10px;
+}
+
+.button:hover{
+    background-color:rgb(170, 167, 167);
+}
