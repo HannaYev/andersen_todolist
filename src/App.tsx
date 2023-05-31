@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
-import { StartPage } from "./components/pages/startPage1/StartPage";
+import { StartPage } from "./components/pages/startPage/StartPage";
 import { Layout } from "./components/pages/layout/Layout";
-import { TodosPage } from "./components/pages/todosPage2/TodosPage";
-import { ActiveTodosPage } from "./components/pages/activePage3/SummaryPage";
+import { TodosPage } from "./components/pages/todosPage/TodosPage";
+import {  SummaryPage } from "./components/pages/summaryPage/SummaryPage";
 import { useDispatch } from "react-redux";
 import { changeName } from "./store/slices/name";
 import { replaceAllTodos } from "./store/slices/todos";
@@ -29,7 +29,7 @@ function App() {
       <Route path="/" element={<StartPage />}/>
       <Route path="todos" element={<Layout />}>
         <Route index element={<TodosPage />}></Route>
-        <Route path="summary" element={<ActiveTodosPage />}></Route>
+        <Route path="summary" element={<SummaryPage />}></Route>
       </Route>
     </Routes>
   );

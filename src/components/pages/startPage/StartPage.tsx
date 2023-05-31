@@ -15,8 +15,7 @@ export const StartPage = () => {
   const onNext = () => {
     if (name){
         navigate("/todos")    
-    }
-    
+    }    
   };
 
   const onChangeName = (e:React.ChangeEvent<HTMLInputElement>) => {
@@ -25,7 +24,7 @@ export const StartPage = () => {
 
   return (
     <div className={styles.startPageWrapper}>
-      <input className={styles.customInput} value={name} onChange={onChangeName} type="text" />
+      <input className={styles.customInput} value={name} onChange={onChangeName} type="text" placeholder="Enter your name"/>
       <Button onClick={onNext}> Continue </Button>
     </div>
   );

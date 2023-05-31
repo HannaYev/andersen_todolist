@@ -24,8 +24,8 @@ export const Layout = () => {
         </p>
         </div>
         <div >
-        <Link className={styles.layoutLink} to="">Todos</Link>
-        <Link  className={styles.layoutLink} to="summary">Summary</Link>
+        <Link className={styles.layoutLink} data-testid="todos-link" to="">Todos</Link>
+        <Link  className={styles.layoutLink} data-testid="summary-link" to="summary">Summary</Link>
         </div>
        
       </div>

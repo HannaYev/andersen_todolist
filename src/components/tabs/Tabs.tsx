@@ -14,9 +14,9 @@ export const Tabs = () => {
   };
   return (
     <div className={styles.tabsWrapper}>
-      <Button onClick={() => changeFilter("All")}>All</Button>
-      <Button onClick={() => changeFilter("Active")}>Active</Button>
-      <Button onClick={() => changeFilter("Completed")}>Completed</Button>
+      <button className={styles.tabsItem} onClick={() => changeFilter("All")}>All</button>
+      <button className={styles.tabsItem} onClick={() => changeFilter("Active")}>Active</button>
+      <button className={styles.tabsItem} onClick={() => changeFilter("Completed")}>Completed</button>
     </div>
   );
 };

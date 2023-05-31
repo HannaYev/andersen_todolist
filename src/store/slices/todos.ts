@@ -36,14 +36,13 @@ export const todosSlice = createSlice({
       state.filter = filter;
     },
 
-    // switchToCompleted: (state, action) => {
-    //   const completed = action.payload;
-    //   state.allTodos = state.allTodos.filter((todo) => todo.completed !== completed)
-    // },
-
     changeTodo: (
       state,
-      action: PayloadAction<{ newText?: string; completed?: boolean; id: string }>
+      action: PayloadAction<{
+        newText?: string;
+        completed?: boolean;
+        id: string;
+      }>
     ) => {
       const { newText, completed, id } = action.payload;
       const todo = state.allTodos.find((todo: Ttodo) => todo.id === id);

@@ -48,6 +48,7 @@ export const Todo = (props: Props) => {
             ref={ref}
             checked={completed}
             type="checkbox"
+            onChange={e => {}}
           />
           {!completed ? (
             <p className={styles.customP}>{text}</p>

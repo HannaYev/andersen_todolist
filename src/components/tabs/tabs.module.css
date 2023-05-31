@@ -1,7 +1,31 @@
-.tabsWrapper{
-    margin-left: 40px;
+.tabsWrapper {
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border: 2px solid rgb(36, 29, 29);
+  background-color: rgb(155, 155, 155);
+  max-width: 300px;
+  overflow: hidden;
+  margin-bottom: 30px;
 }
 
-.clickedTab{
- background-color: rgb(206, 201, 199);
+.tabsItem {
+  margin: 0 auto;
+  text-decoration: none;
+  display: block;
+  width: 155px;
+  height: 30px;
+  color: rgb(49, 48, 48);
+  text-align: center;
+  transition: 0.3s all ease;
+  outline: none;
+  font-size: 16px;
+}
+
+.tabsItem:hover {
+  background-color: rgb(201, 140, 140);
 }

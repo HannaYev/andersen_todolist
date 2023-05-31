@@ -3,18 +3,19 @@ import { useSelector } from "react-redux";
 import styles from "./summaryPage.module.css"
 import { useAppSelector } from "../../../store/store";
 
+
 type Ttodo = {
   text: string;
   completed: boolean;
   id: string;
 };
 
-interface RootState {
-  name: string 
-  todos:[]
-}
+// interface RootState {
+//   name: string 
+//   todos:[]
+// }
 
-export const ActiveTodosPage = () => {
+export const SummaryPage = () => {
     const name = useAppSelector((state) => state.name.name); 
     const todos = useAppSelector((state) => state.todos.allTodos);
    
@@ -28,7 +29,7 @@ export const ActiveTodosPage = () => {
 
 
   return (
-    <div className={styles.summaryWrapper}>
+    <div className={styles.summaryWrapper} data-testid='summary-page'>
        <p>UserName: {name}</p>
        <p>Tasks Completed: {completedTodos} </p>
        <p>Tasks Uncompleted: {uncompletedTodos}</p>
