@@ -19,8 +19,7 @@ function App() {
     }
     if (todos) {
       dispatch(replaceAllTodos(todos));
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }  
   }, []);
 
   return (
