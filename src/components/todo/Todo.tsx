@@ -48,17 +48,16 @@ export const Todo = (props: Props) => {
             ref={ref}
             checked={completed}
             type="checkbox"
-            onChange={e => {}}
+            onChange={(e) => {}}
           />
           {!completed ? (
             <p className={styles.customP}>{text}</p>
           ) : (
             <div>
-              <hr className={styles.line} />{" "}
-              <p className={styles.customP} onClick={() => onChangeStatus()}>
-                {" "}
-                {text}{" "}
-              </p>{" "}
+              <hr className={styles.line} />
+              <p className={styles.customP} onClick={() => onChangeStatus()}>               
+                {text}
+              </p>
             </div>
           )}
 

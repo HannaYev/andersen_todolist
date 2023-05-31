@@ -21,36 +21,18 @@
   transform: translate(-50%, -50%);
   width: 100%;
   background-color: #070707;
-  border:none;
-  /* border-top: 10px silid rgb(73, 39, 39);
-  border-bottom: 10px silid rgb(145, 69, 69); */
+  border: none;
+
   height: 2px;
 }
 
 .customP {
   padding-top: 5px;
   display: block;
-  width:450px;
+  width: 450px;
   text-align: left;
   word-break: break-all;
 }
-
-/* .lineDiv {
-  padding: 5px 20px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  display: flex;
-  text-align: center;
-  justify-content: space-between;
-  gap: 10px;
-  width: 360px;
-  background-color: #5e5c5c;
-  border-radius: 9px;
-  position: absolute;
-  opacity: 0.5;
-  z-index: 33;
-} */
-
 .customInput {
   padding: 5px;
   border-radius: 9px;
@@ -72,5 +54,3 @@
   display: flex;
   gap: 10px;
 }
-
-

@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { useDispatch } from "react-redux";
 import { addTodo} from "../../store/slices/todos";
 import Button from "../button/Button";
@@ -6,8 +6,6 @@ import { Todo } from "../todo/Todo";
 import { AiOutlineFileAdd } from "react-icons/ai";
 import styles from "./todos.module.css";
 import { useAppSelector } from "../../store/store";
-
-
 
 type Ttodo = {
   text: string;

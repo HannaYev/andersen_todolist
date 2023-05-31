@@ -1,4 +1,4 @@
-import { Slice, createSlice, PayloadAction } from "@reduxjs/toolkit";
+import {createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { v4 as uuid } from "uuid";
 
 interface TodosState {

@@ -14,9 +14,8 @@ describe("Button Component", () => {
     expect(screen.getByText("standart button")).toBeInTheDocument();
   });
 
-  test('Button snapshot',()=>{
+  test("Button snapshot", () => {
     const anyButton = render(<Button />);
-    expect(anyButton).toMatchSnapshot()
-  })
-
+    expect(anyButton).toMatchSnapshot();
+  });
 });

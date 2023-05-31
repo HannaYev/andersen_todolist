@@ -5,8 +5,7 @@ import { Todos } from "./Todos";
 describe("startPage Component", () => {
   test("StartPage renders", () => {
     render(
-      <RenderWithProviders route="todos">
-        {" "}
+      <RenderWithProviders route="todos">       
         <Todos />
       </RenderWithProviders>
     );
@@ -15,8 +14,7 @@ describe("startPage Component", () => {
 
   test("Todos snapshot", () => {
     const todos = render(
-      <RenderWithProviders route="todos">
-        {" "}
+      <RenderWithProviders route="todos">        
         <Todos />
       </RenderWithProviders>
     );
