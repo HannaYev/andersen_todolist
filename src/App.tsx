@@ -12,15 +12,15 @@ function App() {
   const dispatch = useDispatch();
   useEffect(() => {
     const name = localStorage.getItem("userName");
-    const todosJson = localStorage.getItem("todos");
-    const todos = JSON.parse(todosJson || "{}");
+    const todosJson = localStorage.getItem("todos");   
+    const todos  = todosJson? JSON.parse(todosJson):[]
     if (name) {
       dispatch(changeName(name));
     }
-    if (todos) {
+    if (todos.length) {
       dispatch(replaceAllTodos(todos));
     }  
-  }, []);
+  }, [dispatch]);
 
   return (
     <Routes>
